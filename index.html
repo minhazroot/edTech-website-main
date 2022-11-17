@@ -17,10 +17,92 @@
         }
     </script>
     <link rel="shortcut icon" href="./images/logo-removebg-preview.png" type="image/x-icon">
-    <title>edTech</title>
+    <title>EdTech</title>
+    <!-- add tailwind css lybary -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.41.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
-<body>
+<body class="bg-gray-300">
+    <!-- header start  -->
+    <header>
+
+
+        <div class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                    <a class="btn btn-ghost normal-case text-xl">Pro Edu</a>
+                </div>
+                <div class="flex-none">
+                    <ul class="menu menu-horizontal p-0">
+                        <li><a href="">Home</a></li>
+
+                        <li><a>Courses</a></li>
+                        <li><a> Deals </a></li>
+                        <li><a> Success </a></li>
+                        <li><a> About </a></li>
+
+
+
+                        <li><a> Register </a></li>
+
+
+
+                    </ul>
+                </div>
+                <a href=""> <button class="btn btn-outline btn-primary"> Register</button></a>
+
+            </div>
+
+
+        </div>
+
+    </header>
+    <!-- header end  -->
+
+    <!-- start slider -->
+    <section>
+
+        <div class="container mx-auto ">
+            <center>
+                <div class="carousel w-3/4 mt-5">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./images/slider/1.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="./images/slider/2.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="./images/slider/3.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="./images/slider/4.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+        </div>
+    </section>
+    <!-- end slider -->
+
 
 </body>
 
